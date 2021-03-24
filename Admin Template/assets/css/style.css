@@ -1,0 +1,152 @@
+.content {
+    background-color: rgb(48, 130, 224);
+    height: 50px;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin: -5px 0 0 -10px;
+    background-color: none;
+}
+
+.navbar-brand a {
+    background-color: none; 
+}
+
+.nav-main {
+    background-color: rgb(53, 53, 75);
+    width: 200px;
+}
+
+/* .nav-main.collapse_main {
+    width: 70px;
+} */
+
+/* .nav-main.collapse_main li a span,
+.logo {
+    display: none;
+} */
+
+.collapse_main {
+
+}
+
+.nav-pills {
+    background-color: rgb(53, 53, 75);
+}
+
+.nav a {
+    color: rgb(196, 195, 195);
+    background-color: rgb(53, 53, 75);
+    border:none;
+}
+
+.logo {
+    padding-left: 25%;
+}
+
+.logo h1 {
+    color: rgb(231, 227, 222);
+    font-size: 13px;
+}
+
+.logo span {
+    color: rgb(55, 155, 255);
+}
+
+.iconc {
+    color: rgb(196, 195, 195);
+}
+
+#content i {
+    color: rgb(255, 255, 255);
+    
+}
+
+.navbar-header img {
+    width: 45px;
+    height: 45px;
+}
+
+.list-group-item {
+    padding-left: 30px;
+}
+
+.iconc {
+    padding-right: 10%;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 130, 224);
+    border:none;
+}
+
+.btn i {
+    color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+}
+
+.btn-sidebar {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(48, 130, 224);
+    border-color: white 5px;
+    margin: 5px 0 0 20px;
+}
+
+.btn-sidebar i {
+    font-size: 25px;
+}
+
+.dropdown {
+    margin: 8px 3px 0 0;
+}
+
+/* ------------------------ */
+
+#sidebar {
+    width: 200px;
+}
+
+#sidebar.active {
+    width: 70px;
+    text-align: center;
+}
+
+#sidebar.active .logo,
+#sidebar.active ul li span {
+    display: none;
+}
+
+#sidebar.active ul {
+    margin-top: 13px;
+}
+
+#sidebar.hide {
+    display: none;
+}
+
+#sidebar.color,
+#sidebar.color .nav-pills,
+#sidebar.color .nav a, 
+#sidebar.color ul li a {
+    background-color: darkcyan;
+}
+
+#sidebar.color .logo span {
+    color: rgb(15, 34, 202);
+}
+
+
+
+
+
+
+
+
+
+
+
+
