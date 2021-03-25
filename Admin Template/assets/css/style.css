@@ -1,4 +1,4 @@
-.content {
+.header {
     background-color: rgb(48, 130, 224);
     height: 50px;
     width: 100%;
@@ -27,9 +27,9 @@
     display: none;
 } */
 
-.collapse_main {
+/* .collapse_main {
 
-}
+} */
 
 .nav-pills {
     background-color: rgb(53, 53, 75);
@@ -108,6 +108,7 @@
 
 #sidebar {
     width: 200px;
+    height: 100vh;
 }
 
 #sidebar.active {
@@ -140,13 +141,32 @@
 }
 
 
+#sidebar.add,
+#sidebar.add .nav-pills,
+#sidebar.add .nav a, 
+#sidebar.add ul li a {
+    background-color: rgb(24, 167, 72);
+}
+
+
+#sidebar.fas.red ,
+#sidebar.red ul li a {
+    color: rgb(235, 20, 31);
+}
 
 
 
 
 
 
+/* ------------------------ */
+/*          Form            */
+/* ------------------------ */
 
+.docs-sideba {
+    background-color:rgb(247, 247, 248)
+}
 
-
-
+.docs-sidebar ul li {
+	list-style-type: none;
+}
