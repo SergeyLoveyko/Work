@@ -170,3 +170,52 @@
 .docs-sidebar ul li {
 	list-style-type: none;
 }
+
+
+
+
+/* ------------------------ */
+/*          Form            */
+/* ------------------------ */
+
+
+
+.content-main {
+    margin-left: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 20px 30px;
+
+}
+
+p {
+    margin-left: 10px;
+}
+
+.entry-title {
+    font-size: 20px;
+}
+
+.well {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin: 20px 0 35px 0;
+}
+
+.html {
+    color: rgb(56, 49, 49);
+}
+
+.hljs-name {
+    color: rgb(69, 69, 218);
+}
+
+.hljs-attr {
+    color: rgb(161, 90, 90);
+}
+
+.string {
+    color: rgb(58, 158, 58);
+}

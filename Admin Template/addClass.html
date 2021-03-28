@@ -164,39 +164,56 @@
 
                            <div class="page-header">
                               <h1 class="page-title">
-                                 Category: 
-                                 <span>Manipulation</span>
-                                 <hr>
+                                 .addClass()
                               </h1>
+                              <p><b>Изменение атрибута "class" через jQuery (addClass, removeClass, hasClass)</b></p>
+
+                              <p>
+                                 В jQuery методы, которые приспособлены для работы с классами: addClass, removeClass, hasClass. Конечно, можно использовать метод attr для изменения классов, но он заменяет все существующие классы. Поэтому вместо attr лучше использовать методы, которые автоматически вычисляют какие классы уже есть и добавляют/убирают нужные/ненужные. Разберём их по порядку.
+                              </p>
+                           </div>
+                           <hr>
+
+                           <h3>
+                              Добавление класса (addClass)
+                           </h3>
+                           <p>Приведём пример добавления класса с помощью метода <b>addClass.</b>  Этому методу в качестве параметра передаётся название класса. Метод автоматически вычисляет есть ли у элемента такой класс и добавляет его, если ещё нет:</p>
+
+                           <div class="well">
+                              <code class="html">
+                                 &lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="string">"mouse"</span>&gt;&lt;/<span class="hljs-name">div</span>&gt; </br>
+                                 &lt;<span class="hljs-name">script</span>&gt; </br>
+                                 &nbsp;&nbsp;&nbsp;<span>$(<span class="string">'#mouse'</span>).addClass(<span class="string">'cheese'</span>);</span> </br>
+                                 &lt;/<span class="hljs-name">script</span>&gt;   
+                              </code>
                            </div>
 
-                           <article id="post-1" class="well">
-                              <h1 class="entry-title">
-                                 <a href="addClass.html" title="Permalink to .addClass">.addClass()</a>
-                              </h1>
-                              <p>Adds the specified class(es) to each element in the set of matched elements.</p>
-                           </article>
+                           <p>Как видно из примера, атрибута "class" ещё нет у элемента "div". Но после применения метода <b>"addClass"</b> он будет создан и HTML код страницы изменится на:</p>
 
-                           <article id="post-2" class="well">
-                              <h1 class="entry-title">
-                                 <a href="#" title="Permalink to .removeClass()">.removeClass()</a>
-                              </h1>
-                              <p>Remove a single class, multiple classes, or all classes from each element in the set of matched elements.</p>
-                           </article>
+                           <div class="well">
+                              <code class="html">
+                                 &lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="string">"cheese"</span>  <span class="hljs-attr">id</span>=<span class="string">"mouse"</span>&gt;&lt;/<span class="hljs-name">div</span>&gt;
+                              </code>
+                           </div>
 
-                           <article id="post-3" class="well">
-                              <h1 class="entry-title">
-                                 <a href="#" title="Permalink to .toggleClass()">.toggleClass()</a>
-                              </h1>
-                              <p>Add or remove one or more classes from each element in the set of matched elements, depending on either the class’s presence or the value of the state argument.</p>
-                           </article>
+                           <p>Добавим сразу второй класса, чтобы продемонстрировать, что существующие классы не затираются, как это происходит при использовании <b>attr:</b></p>
 
-                           <article id="post-4" class="well">
-                              <h1 class="entry-title">
-                                 <a href="#" title="Permalink to .hasClass()">.hasClass()</a>
-                              </h1>
-                              <p>Determine whether any of the matched elements are assigned the given class.</p>
-                           </article>
+                           <div class="well">
+                              <code class="html">
+                                 &lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="string">"cheese"</span>  <span class="hljs-attr">id</span>=<span class="string">"mouse"</span>&gt;&lt;/<span class="hljs-name">div</span>&gt; </br>
+                                 &lt;/<span class="hljs-name">script</span>&gt; </br>
+                                 &nbsp;&nbsp;&nbsp;<span>$(<span class="string">'#mouse'</span>).addClass(<span class="string">'cat'</span>);</span> </br>
+                                 &lt;/<span class="hljs-name">script</span>&gt;   
+                              </code>
+                           </div>
+
+                           <p>При выполнении такого кода получится HTML код:</p>
+
+                           <div class="well">
+                              <code class="html">
+                                 &lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="string">"cheese cat"</span>  <span class="hljs-attr">id</span>=<span class="string">"mouse"</span>&gt;&lt;/<span class="hljs-name">div</span>&gt;
+                              </code>
+                           </div>
 
                         </div>
 
@@ -207,7 +224,7 @@
                                     <a href="">jGuery</a>
                                     <ul>
                                        <li>
-                                          <a href="">Manipulation</a>
+                                          <a href="form.html">Manipulation</a>
                                           <ul>
                                              <li><a href="addClass.html">addClass()</a></li>
                                              <li><a href="">removeClass()</a></li>
