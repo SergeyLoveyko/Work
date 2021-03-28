@@ -39,7 +39,7 @@ $('#btn-sidebar-swich').on('click', function() {
   }
 });
 
-
+/* 
 var state = "expanded";
 //Check if navbar is expanded or minimized and handle 
 $('#navbar-toggle').click(function() {
@@ -53,7 +53,7 @@ $('#navbar-toggle').click(function() {
         }
     }
 });
-
+ */
 
 
 
