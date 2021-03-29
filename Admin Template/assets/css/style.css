@@ -181,11 +181,11 @@
 
 
 .content-main {
-    margin-left: 20px;
+    padding-left: 35px;
 }
 
-h1, h2, h3 {
-    margin: 0 0 20px 30px;
+.content-main h1, h2, h3 {
+    margin: 10px 0 10px 30px;
 
 }
 
@@ -219,3 +219,36 @@ p {
 .string {
     color: rgb(58, 158, 58);
 }
+
+
+
+.header .nav-pills {
+    background-color: rgb(48, 130, 224);
+    margin: 5px 15px 0 0;
+}
+
+.header .nav-pills ul li {
+    background-color: rgb(48, 130, 224);
+}
+
+
+
+.docs-sidebar {
+    padding-top: 25px;
+}
+
+.docs-sidebar ul {
+    padding-left: 25px;
+    padding-top: 5px;
+    color: rgb(107, 106, 106);
+}
+
+.docs-sidebar ul li a {
+    color: #767676;
+}
+
+.docs-sidebar ul li a :active {
+    color: #563d7c;
+}
+
+
