@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 1439px;
+    height: 926px;
+    background-color: rgba(32, 32, 32, 1);
+    padding: 17px 19px 11px 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 138px;
+    height: 926px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__fon {
+    width: 74px;
+    height: 74px;
+    margin: 23px 0 0 30px;
+    border-radius: 24px;
+    background-color: rgba(246, 240, 216, 1);
+    margin-bottom: 125px;
+}
+
+.logo__fon-img {
+    margin: 21px 0 0 23px;
+}
+
+.sidebar__gruop-btn {
+    margin: 0 0 110px 30px;
+    width: 50px;
+}
+
+.sidebar .btn-primary {
+    height: 50px;
+    margin-bottom: 35px;
+    background-color: rgba(32, 32, 32, 1);
+    border-color: rgba(32, 32, 32, 1);
+}
+
+.sidebar .btn-secondary {
+    margin-left: 46px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(32, 32, 32, 1);
+    border-color: rgba(32, 32, 32, 1);
+}
+
+.sidebar .fa-user {
+    margin-left: 3px;
+    font-size: 25px;
+    color: #848484;
+}
+
+.content {
+    width: 1282px;
+    height: 898px;
+    border-radius: 45px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 0 70px;
+}
+
+
+.header .btn-primary {
+    padding: 0 5px;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.header .user-btn {
+    width: 175px;
+    height: 48px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: rgba(242, 245, 250, 1);
+    color: black;
+}
+
+.header .user-btn__img {
+
+    padding-left: 0px;
+    position: relative;
+}
+
+.header .user-btn__img::before {
+    
+    content: "";
+    position: absolute;
+    background-image: url(../image/user.svg);
+    width: 60px;
+    height: 60px;
+}
