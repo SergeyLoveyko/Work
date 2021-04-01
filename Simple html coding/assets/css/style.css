@@ -106,6 +106,7 @@ body {
 
 .container__center {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .Portfolio {
@@ -164,7 +165,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     position: absolute;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(241, 241, 241);
     top: 228px;
     left: 397px;
 }
@@ -192,6 +193,11 @@ body {
     color: #ACBCCD;
     font-weight: normal;
     font-size: 14px;
+    padding: 6px 9px;
+}
+
+.Portfolio .btn-light-active {
+    color: black;
 }
 
 .Your-Assets {
@@ -315,4 +321,34 @@ body {
     font-weight: normal;
     font-size: 16px;
     color: rgba(137, 106, 185, 1);
+}
+
+/* ---------------------------- */
+/* -----container__bottom------ */
+/* ---------------------------- */
+
+.container__bottom {
+    background-color: rgb(224, 195, 159);
+    width: 1282px; 
+    height: 368px;
+}
+
+.Table {
+    width: 710px;
+    height: 368px;
+    background-color: rgb(208, 174, 240);
+    margin-left: 65px;
+}
+
+.Table__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Table__header .btn-primary {
+    border-radius: 22px;
+    color: rgba(2, 11, 42, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-color: #EFF2F4;
+    height: 44px;
 }
