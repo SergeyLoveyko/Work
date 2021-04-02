@@ -343,6 +343,11 @@ body {
 .Table__header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.Table h3 {
+    margin-top: 5px;
 }
 
 .Table__header .btn-primary {
@@ -351,4 +356,5 @@ body {
     background-color: rgba(255, 255, 255, 1);
     border-color: #EFF2F4;
     height: 44px;
+    margin-left: 15px;
 }
