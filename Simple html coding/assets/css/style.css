@@ -328,26 +328,37 @@ body {
 /* ---------------------------- */
 
 .container__bottom {
-    background-color: rgb(224, 195, 159);
     width: 1282px; 
     height: 368px;
+    display: flex;
 }
 
 .Table {
-    width: 710px;
+    width: 715px;
     height: 368px;
-    background-color: rgb(208, 174, 240);
+
     margin-left: 65px;
+}
+
+.Table__content-title td {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: rgba(130, 144, 160, 1);
 }
 
 .Table__header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .Table h3 {
     margin-top: 5px;
+}
+
+.Table__header-nav span {
+    margin-right: 8px;
 }
 
 .Table__header .btn-primary {
@@ -357,4 +368,141 @@ body {
     border-color: #EFF2F4;
     height: 44px;
     margin-left: 15px;
+}
+
+.Table__content-brend {
+    display: flex;
+}
+
+.Table__content-brend__logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.Table__content-brend__text h4 {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.Table__content-brend__text p {
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(122, 137, 154, 1);
+    margin-top: 5px;
+}
+
+.Table__content-brend__text {
+    margin-left: 15px;
+}
+
+.Table__content-brend__logo-1 {
+    margin: 9px 9px;
+}
+
+.Table__content-brend__logo-2 {
+    margin: 12px 11px;
+}
+
+.Table__content-brend__logo-3 {
+    margin: 15px 15px;
+}
+
+.Table__content-brend__logo-4 {
+    margin: 14px 14px;
+}
+
+.Table__content-brend__text-price {
+    margin: 5px 0;
+}
+
+.Table__content-brend__text-chanee {
+    color:  #4BA582;
+}
+
+
+/* --------------------- */
+/* -------Reclame------- */
+/* --------------------- */
+
+.Reclame {
+    width: 410px;
+    height: 363px;
+    margin-left: 30px;
+}
+
+.Reclame__content {
+    width: 410px;
+    height: 363px;
+    background-color: #222222;
+    border-radius: 30px;
+    position: relative;
+    z-index: 10;
+    padding: 45px 0 0 35px;
+}
+
+.Rectangele__1 {
+    width: 345px;
+    height: 48px;
+    background-color: #DFDFE3;
+    position: absolute;
+    border-radius: 24px;
+    bottom: 57px;
+    left: 843px;
+    z-index: 2;
+}
+
+.Rectangele__2 {
+    width: 295px;
+    height: 48px;
+    background-color: #F0F0F1;
+    position: absolute;
+    border-radius: 24px;
+    bottom: 41px;
+    left: 869px;
+    z-index: 0;
+}
+
+.Frame {
+    position: absolute;
+    bottom: 75px;
+    left: 1023px;
+    z-index: 15;
+}
+
+.Reclame__content h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.Reclame__content p {
+    color: #FFFFFF;
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22,5px;
+    margin-bottom: 35px;
+}
+
+.Reclame__content img {
+    width: 97.3px;
+    height: 74.73px;
+}
+
+.Reclame__content .btn {
+    width: 149px;
+    height: 46px;
+    border-radius: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(188, 223, 255, 1);
+    border-color:  rgba(188, 223, 255, 1);
 }
